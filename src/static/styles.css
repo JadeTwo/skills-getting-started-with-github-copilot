@@ -89,16 +89,33 @@ section h3 {
 }
 
 .activity-card .participants-section ul {
-  margin-left: 18px;
+  margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .activity-card .participants-section li {
-  margin-bottom: 2px;
+  margin-bottom: 6px;
   color: #3949ab;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Delete icon */
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 12px;
+  font-size: 14px;
+  background: none;
+  border: none;
+}
+
+.delete-icon:hover {
+  color: #8e0000;
 }
 
 .activity-card .participants-section.no-participants {
